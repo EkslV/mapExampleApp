@@ -15,8 +15,6 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 import java.util.Map;
 
-
-
 /**
  * Created by vadimeksler on 22/03/2018.
  */
@@ -28,6 +26,14 @@ public class DatabaseProvider implements IDatabaseProvider {
     DatabaseReference reference = FirebaseDatabase.getInstance().getReference(PATH);
     GeoFire geoFire = new GeoFire(reference);
 
+    /**
+     *  Saves into the firebase database marker's data.
+     *
+     * @param marker
+     *  Custom created marker from ui with name, latitude and longitude
+     * @param callback
+     *  Callback for result
+     */
     @Override
     public void saveMarkerData(CustomMarker marker, IMapsRepositoryCallback callback) {
         geoFire.setLocation(marker.getTitle(),
@@ -41,6 +47,11 @@ public class DatabaseProvider implements IDatabaseProvider {
         });
     }
 
+    /**
+     * Gets all markers entities.
+     *
+     * @param callback
+     */
     @Override
     public void getGeoLocations(IMapsRepositoryCallback callback) {
         Map<String, GeoLocation> res = new HashMap<>();
