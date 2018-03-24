@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapApplication</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="marker_name">Marker name</string>
+    <string name="alert_title">Enter name for this marker</string>
+    <string name="save">save</string>
+</resources>

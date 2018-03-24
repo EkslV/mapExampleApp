@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "99111517357",
+    "firebase_url": "https://mapapplication-38ecb.firebaseio.com",
+    "project_id": "mapapplication-38ecb",
+    "storage_bucket": "mapapplication-38ecb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99111517357:android:ef5361b75cb8be00",
+        "android_client_info": {
+          "package_name": "com.eksler.vadim.mapapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99111517357-nsggs24gr2jhv05a884v330i1r1ivetv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eksler.vadim.mapapplication",
+            "certificate_hash": "48ddf6d37956d46eba8fcfc9ea62c2e64c83d578"
+          }
+        },
+        {
+          "client_id": "99111517357-truvs94nn4ib4a3bkftt59v6ndk5g7rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSBfLk8RywKxq4tQwp3KXl8l3upHcpzlo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99111517357-truvs94nn4ib4a3bkftt59v6ndk5g7rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
